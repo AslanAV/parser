@@ -1,0 +1,10 @@
+/vendor/
+logs
+*.swo
+*.swp
+*.cache
+build
+/.idea/
+.phpunit
+.result
+.vscode

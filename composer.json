@@ -1,0 +1,15 @@
+{
+    "name": "aslan/parser",
+    "autoload": {
+        "psr-4": {
+            "Aslan\\Parser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aslan",
+            "email": "autlevaslan@yandex.ru"
+        }
+    ],
+    "require": {}
+}
