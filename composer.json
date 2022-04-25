@@ -1,9 +1,15 @@
 {
     "name": "aslan/parser",
+    "description": "cv.hexlet.io parser",
+    "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Aslan\\Parser\\": "src/"
-        }
+        "files": [
+            "src/ResumeFinder.php",
+            "src/ResumeParser.php",
+            "src/App.php",
+            "src/Data.php",
+            "src/Http.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +17,12 @@
             "email": "autlevaslan@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-dom": "*",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0"
+    }
 }
